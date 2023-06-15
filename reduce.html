@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const tableau = [1, 2, 3, 4, 5];
+
+//Additionne les nombres dans le tableaux 0 + 1 + 2 + 3 + 4
+const n = 0;
+const somme = tableau.reduce(
+  (accumulator, currentValue) => accumulator + currentValue, n
+);
+// Affichage du resultat qui donne 10
+console.log("Le resultat du reduce est de "+somme);
+
+    </script>
+</body>
+</html>
